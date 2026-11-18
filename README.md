@@ -5,7 +5,9 @@
 
 ## Установка
 
-### Homebrew (одна команда)
+### macOS
+
+**Homebrew (одна команда):**
 
 ```bash
 brew trust yumdaniil/prism-agent
@@ -15,12 +17,26 @@ brew install --cask yumdaniil/prism-agent/prism-agent
 `brew trust` нужен один раз: Homebrew не доверяет сторонним тапам по умолчанию.
 Обновление — `brew upgrade --cask prism-agent`, удаление — `brew uninstall --cask prism-agent`.
 
-### Архив из Releases
+**Архив из Releases:**
 
 1. Откройте раздел **Releases** и скачайте последнюю версию для macOS (Apple Silicon).
 2. Распакуйте архив и перетащите приложение в «Программы».
 3. При первом запуске откройте через правую кнопку → «Открыть».
 4. Вставьте ключ провайдера в настройках.
+
+### Windows
+
+В разработке.
+
+### Linux
+
+#### Linux Debian
+
+В разработке.
+
+#### Linux Arch
+
+В разработке.
 
 ## Требования
 
@@ -30,7 +46,7 @@ brew install --cask yumdaniil/prism-agent/prism-agent
 
 ## Обратная связь
 
-daniilprojects@yandex.ru
+prerelease@prism-agent.ru
 
 ## Лицензии
 
